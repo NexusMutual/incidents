@@ -22,4 +22,9 @@ All addresses have suffered a 31.6% loss.
 
 ## References
 
+- [Yearn post mortem: vulnerability analysis and disclosure](https://github.com/iearn-finance/yearn-security/blob/master/disclosures/2021-02-04.md)
 - [The yDAI Incident Analysis: Forced Investment by PeckShield](https://peckshield.medium.com/the-ydai-incident-analysis-forced-investment-2b8ac6058eb5)
+
+## Corrections
+
+The exploit took place on 4th of February with [the first tx being sent at 09:12:40 PM +UTC](https://etherscan.io/tx/0x59faab5a1911618064f1ffa1e4649d85c99cfd9f0d64dcebbc1af7d7630da98b).
