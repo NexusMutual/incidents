@@ -4,7 +4,7 @@ This repository contains information regarding which wallets suffered losses dur
 
 ## List of incidents
 
-- [yDAI 5th of February, 2021](./2021-02-05-ydai-v1)
+- [yDAI 4th of February, 2021](./2021-02-04-ydai-v1)
 
 ## Cover wording versions
 
