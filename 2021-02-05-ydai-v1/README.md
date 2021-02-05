@@ -5,6 +5,10 @@ Total losses: \~$11M
 
 ## Data
 
+- [ydai-snapshot.csv](ydai-snapshot.csv)
+- [Active Yearn covers that require proof of loss](https://docs.google.com/spreadsheets/d/1P0AYmLud8KYml8CcU0uKHOiE15tn19CLulxXO3phUhM//view)
+- [Active Yearn covers that do not require proof of loss](https://docs.google.com/spreadsheets/d/12Q9Aywu43K26eZWBnOC8vtQAYyLp8JSRKeImkvXTzSA/view)
+
 The included [ydai-snapshot.csv](ydai-snapshot.csv) was provided by Yearn team and contains a snapshot of the yDAI balances (vault shares) at block `11792183`. The `pre-dai` column contains the price of the shares in DAI at the snapshot block (before the hack). The `post-dai` contains the price of the shares in DAI at block `11792352`.
 
 The snapshot accounts for the yDAI that were sent to exchanges: the LP tokens were unwrapped and the accounts included in the list.
