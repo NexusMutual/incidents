@@ -2,6 +2,10 @@
 
 This repository contains information regarding which wallets suffered losses during exploits/incidents. It's primary purpose is to serve as a reference for claim assessors to determine whether the cover owners that raised claims have suffered losses. Please refer to the cover wording for the current claim payout conditions.
 
+## List of incidents
+
+- [yDAI 5th of February, 2021](./2021-02-05-ydai-v1)
+
 ## Cover wording versions
 
 Smart contract cover wording:
