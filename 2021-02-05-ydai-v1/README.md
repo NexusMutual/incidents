@@ -1,7 +1,7 @@
 # yDAI v1
 
-Date: 5th of February 2021
-Total losses: \~$11M
+Date: 5th of February 2021  
+Total losses: \~$11M  
 
 ## Data
 
