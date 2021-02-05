@@ -10,7 +10,7 @@ Total losses: \~$11M
   - [Covers that require proof of loss](https://docs.google.com/spreadsheets/d/1P0AYmLud8KYml8CcU0uKHOiE15tn19CLulxXO3phUhM//view)
   - [Covers that do NOT require proof of loss](https://docs.google.com/spreadsheets/d/12Q9Aywu43K26eZWBnOC8vtQAYyLp8JSRKeImkvXTzSA/view)
 
-*Note:* To easily visualize the historic transfers of yDAI to and from a given address, use https://etherscan.io/token/0xacd43e627e64355f1861cec6d3a6688b31a6f952?a=<insert_address_here>
+**Note:** To easily visualize the historic transfers of yDAI to and from a given address, use https://etherscan.io/token/0xacd43e627e64355f1861cec6d3a6688b31a6f952?a=<insert_address_here>
 
 The included [ydai-snapshot.csv](ydai-snapshot.csv) was provided by Yearn team and contains a snapshot of the yDAI balances (vault shares) at block `11792183`. The `pre-dai` column contains the price of the shares in DAI at the snapshot block (before the hack). The `post-dai` contains the price of the shares in DAI at block `11792352`.
 
