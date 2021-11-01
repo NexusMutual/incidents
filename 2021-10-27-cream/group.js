@@ -11,8 +11,13 @@ const rates = Object.keys(rawRates).reduce(
   {},
 );
 
-const ethRates = require('./chainlink-eth-rates--block-13499797.json')
+let ethRates = require('./chainlink-eth-rates--block-13499797.json');
 
+const nonChainlinkRates =  require('./non-chainlink-rates.json');
+
+ethRates = { ...ethRates, ...nonChainlinkRates };
+
+const missingEthRates = new Set();
 
 fs.readdir(balancesPath, function (err, files) {
 
@@ -40,6 +45,7 @@ fs.readdir(balancesPath, function (err, files) {
       const underlyingBalance = users[address] * parseInt(rate) / 10 ** parseInt(underlyingDecimals);
       const underlyingSymbol = symbol.split('cr')[1];
       if (!ethRates[underlyingSymbol]) {
+        missingEthRates[underlyingSymbol] = null;
         console.error(`Could not find ETH rate for ${underlyingSymbol}. skipping`);
         return;
       }
@@ -51,5 +57,7 @@ fs.readdir(balancesPath, function (err, files) {
   });
 
   console.log(balances);
-
+  console.log({
+    missingEthRates: JSON.stringify(missingEthRates)
+  });
 });
